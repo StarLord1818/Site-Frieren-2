@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Marcellus&family=Passion+One:wght@400;700;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
     --roxo: #434573;
@@ -55,9 +56,27 @@ nav a:hover{
     transition-duration: 1s;
     border-radius: 10px;
 }
-#fotoprincipal {
-  padding: -40px;
-  
+#imagemprincipal {
+    background-image: url('imagens/AAAABTOQQyuGFkQDY8PNLgKcnyVYGBjCouOKB7sHskCFRlGo1WsBf8ATaMn2EkuSb0aUlqhzA6Hwt1PvcjRF3XgQYPjEK9Sz85VP44xZ.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-attachment: fixed;
+    padding: 200px;
+    width: 400px;
+    height: 200px;
+
+}
+
+#imagemprincipal > p {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.452);
+    margin-left: -180px;
+    margin-top: -150px;
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: bolder;
+
 }
 img {
     width:100%;
