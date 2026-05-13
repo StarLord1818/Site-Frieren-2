@@ -27,11 +27,6 @@ header {
     box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.459)
 
 }
-header img {
-    width: 40px;
-    height: 40px;
-    
-}
 header h1 {
     text-align: center;
     padding: 40px;
@@ -51,32 +46,20 @@ nav a{
 nav a:hover{
     text-decoration: underline;
     color: white;
-    background-color:#0087c5;
-    box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.596);
-    transition-duration: 1s;
-    border-radius: 10px;
+
 }
-#imagemprincipal {
+#imagem {
     background-image: url('imagens/AAAABTOQQyuGFkQDY8PNLgKcnyVYGBjCouOKB7sHskCFRlGo1WsBf8ATaMn2EkuSb0aUlqhzA6Hwt1PvcjRF3XgQYPjEK9Sz85VP44xZ.jpg');
     background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain;
+    background-size: center top;
     background-attachment: fixed;
-    padding: 200px;
-    width: 400px;
-    height: 200px;
-
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.445);
+    height: 400px;
+    width: 760px;
 }
-
-#imagemprincipal > p {
-    border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.452);
-    margin-left: -180px;
-    margin-top: -150px;
+#textoimagem {
     display: inline-block;
-    font-size: 3vw;
-    font-weight: bolder;
-
+    background-color: black;
 }
 img {
     width:100%;
