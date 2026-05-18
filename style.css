@@ -107,10 +107,12 @@ section img {
 }
 
 section p{
-    padding: 15px;
-    text-indent: 10px;
-    font-size: 1.2em;
-    text-align: center;
+    display: inline-block;
+}
+.seção1 > p {
+    
+}
+.seção2 {
 
 }
 aside h3{
