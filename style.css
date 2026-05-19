@@ -108,9 +108,12 @@ section img {
 
 section p{
     display: inline-block;
+    margin-left: 500px;
+    margin-bottom: -90px;
+    
 }
 .seção1 > p {
-    
+   
 }
 .seção2 {
 
