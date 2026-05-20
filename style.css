@@ -73,10 +73,6 @@ nav a:hover{
     margin-left: 30px;
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.384);
 }
-img {
-    width:100%;
-    
-}
 main {
     background-color: var(--roxo);
     color: white;
@@ -102,21 +98,29 @@ main h1:hover {
 }
 section img {
     width: 470px;
-    border-radius: 10px;
-    display: block;
+    border-radius: 10px
+    
 }
 
-section p{
-    display: inline-block;
-    margin-left: 500px;
-    margin-bottom: -90px;
+section {
+    display: flex;
+    align-items: center;
     
 }
 .seção1 > p {
-   
+    margin: 0px 20px 0px 20px;
+    text-indent: 10px;
+    text-align: auto;
+    display: inline-block;
+    height: 20vh;
 }
-.seção2 {
-
+.seção2  > p {
+    margin: 0px 20px 0px 20px;
+    text-indent: 10px;
+    text-align: auto;
+    display: inline-block;
+    height: 20vh;
+   
 }
 aside h3{
     background-color: var(--verde);
