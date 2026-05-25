@@ -97,9 +97,9 @@ main h1:hover {
     transition-duration:  0.5s;
 }
 section img {
-    width: 470px;
-    border-radius: 10px
-    
+    border-radius: 10px;
+    min-width: 400px;
+    max-width: 100px;
 }
 
 section {
@@ -108,19 +108,14 @@ section {
     
 }
 .seção1 > p {
-    margin: 0px 20px 0px 20px;
-    text-indent: 10px;
-    text-align: auto;
     display: inline-block;
-    height: 20vh;
+    margin-left: 10px;
+    text-indent: 10px;
 }
 .seção2  > p {
-    margin: 0px 20px 0px 20px;
-    text-indent: 10px;
-    text-align: auto;
     display: inline-block;
-    height: 20vh;
-   
+    margin-left: 10px;
+    text-indent: 10px;
 }
 aside h3{
     background-color: var(--verde);
