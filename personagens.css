@@ -72,6 +72,15 @@ nav a:hover{
 }
 section {
     text-align: center;
+    background-color: red;
+}
+section p{
+    display: none;
+    margin: auto;
+}
+section:hover p {
+    display: block;
+    width: 300px;
 }
 img {
     width: 370px;
