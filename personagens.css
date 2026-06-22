@@ -71,16 +71,26 @@ nav a:hover{
 
 }
 section {
-    text-align: center;
-    background-color: red;
+    color: white;
 }
-section p{
+.personagem {
+    display: inline-block;
+    vertical-align: top;
+    margin: 50px 30px 0px 30px;
+}
+.personagem h1 {
     display: none;
-    margin: auto;
+    position: absolute;
 }
-section:hover p {
+.personagem p {
+    display: none;
+    position: absolute;
+}
+.personagem:hover h1 {
     display: block;
-    width: 300px;
+}
+.personagem:hover p {
+    display: block;
 }
 img {
     width: 370px;
