@@ -16,3 +16,302 @@
             <h1>Sein</h1>
 
             <p>Sein é um sacerdote talentoso e de meia-idade que se junta brevemente ao grupo da maga Frieren em sua jornada. Embora seja um excelente curandeiro com grande potencial, ele decide deixar o grupo posteriormente para seguir sua própria missão pessoal na esperança de reencontrar um amigo de infância.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+            @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Marcellus&family=Passion+One:wght@400;700;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --roxo: #434573;
+    --azul: #A7E4F2;
+    --verde: #8ab47e;
+    --amarelo: #D9BA82;
+    --vermelho: #A65851;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #53497ac9;
+    text-align: center;
+}
+header {
+    background-image: linear-gradient( to bottom, var(--azul), #506e75);
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.459);
+    padding: px;
+    position: sticky;
+    top: 0;
+}
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font:  bold 3em 'Cinzel', sans-serif;
+    text-shadow: 0px 0px 10px lightblue;
+}
+h1 {
+    text-align: center;
+    font-family: 'Cinzel';
+    color: white;
+    font-size: 5em;
+    padding-top: 10px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Marcellus';
+    padding-top: 10px;
+}
+nav {
+    padding: 10px;
+
+}
+nav a{
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+nav a:hover{
+    background-color: var(--vermelho);
+    text-decoration: underline;
+    color: white;
+
+}
+section {
+    color: white;
+}
+.personagem {
+    display: inline-block;
+    text-align: center;
+}
+.personagem h1 {
+    display: none;
+    position: absolute;
+}
+.personagem p {
+    display: none;
+    position: absolute;
+}
+.personagem:hover h1 {
+    display: block;
+}
+.personagem:hover p {
+    display: block;
+}
+img {
+    width: 370px;
+    margin: 50px 30px 0px 30px;
+}
+main h1 {
+    font-size: 3em;
+    display: block;
+    width: 370px;
+    margin: 50px 30px 0px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="personagens.css">
+</head>
+<body>
+    <header>
+            <h1>Frieren e a Jornada para o Além</h1>
+            <nav>
+                <a href="linhadotempo.html">Linha do tempo</a>
+                <a href="personagens.html">Personagens</a>
+                <a href="">Grimórios</a>
+            </nav>
+        </header>
+        <h1>Personagens</h1>
+        <h2>Conheça os personagens que somam esta jornada inesquecível</h2>
+
+        <section class="personagem">
+            <img src="imagenspersonagens/frieren.jpg" alt="Frieren">
+            <h1 class="frieren">Frieren</h1>
+            <p class="frieren">Uma maga elfa que participou da jornada responsável por derrotar o Rei Demônio. Após a morte de seus antigos companheiros, Frieren embarca em uma nova viagem para compreender melhor os sentimentos humanos e o valor do tempo compartilhado com aqueles que amamos.</p>
+        </section> 
+        <section class="personagem">
+            <img src="imagenspersonagens/fern.jpg" alt="Fern">
+        </section>
+        <section class="personagem">
+            <img src="imagenspersonagens/stark.jpg" alt="Stark">
+        </section>
+        <section class="personagem">
+            <img src="imagenspersonagens/sein.jpg" alt="Sein">
+        </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cinzel:wght@400..900&family=Marcellus&family=Passion+One:wght@400;700;900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --roxo: #434573;
+    --azul: #A7E4F2;
+    --verde: #8ab47e;
+    --amarelo: #D9BA82;
+    --vermelho: #A65851;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: #53497ac9;
+}
+header {
+    background-image: linear-gradient( to bottom, var(--azul), #506e75);
+    box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.459);
+    padding: px;
+    position: sticky;
+    top: 0;
+}
+header h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+    font:  bold 3em 'Cinzel', sans-serif;
+    text-shadow: 0px 0px 10px lightblue;
+}
+h1 {
+    text-align: center;
+    font-family: 'Cinzel';
+    color: white;
+    font-size: 5em;
+    padding-top: 10px;
+}
+h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Marcellus';
+    padding-top: 10px;
+}
+nav {
+    padding: 10px;
+
+}
+nav a{
+    padding: 5px;
+    font-size: 1.5em;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.541);
+    border-radius: 10px;
+    transition-duration: 1s;
+
+}
+nav a:hover{
+    background-color: var(--vermelho);
+    text-decoration: underline;
+    color: white;
+
+}
+.personagens{
+    text-align: center;
+}
+
+section{
+    display: inline-block;
+    position: relative;
+    color: white;
+}
+section h1, p{
+    display: none;
+}
+
+section:hover h1,
+section:hover p{
+    display: block;
+}
+
+section h1{
+    font-size: 2em;
+    width: 370px;
+    margin: auto;
+}
+
+section p{
+    width: 370px;
+    margin: auto;
+    font-size: 1em;
+    text-align: justify;
+}
+img{
+    width: 370px;
+    margin: 50px 30px 0px 30px;
+}
+img {
+    width: 370px;
+    margin: 50px 30px 0px 30px;
+}
+main h1 {
+    font-size: 3em;
+    display: block;
+    width: 370px;
+    margin: 50px 30px 0px 30px;
+}
