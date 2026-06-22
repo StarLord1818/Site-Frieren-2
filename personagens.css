@@ -76,7 +76,6 @@ section {
 .personagem {
     display: inline-block;
     vertical-align: top;
-    margin: 50px 30px 0px 30px;
 }
 .personagem h1 {
     display: none;
