@@ -68,13 +68,39 @@ nav a:hover{
     text-decoration: underline;
     color: white;
 }
+main {
+    text-align: center;
+}
+.personagem {
+    display: inline-block;
+    vertical-align:  top;
+}
 section {
     color: white;
+    padding-bottom: 30px;
 }
-section h1, p {
+section p {
     width: 370px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 1.5em;
 }
+.personagem {
+    transition-duration: 1s;
 
+}
+.personagem h1, p {
+    display: none;
+}
+.personagem:hover {
+    margin-top: 10px;
+}
+.personagem:hover h1 {
+    display: block;
+}
+.personagem:hover p {
+    display: block;
+}
 img {
     width: 370px;
     margin: 50px 30px 0px 30px;
